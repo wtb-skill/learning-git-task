@@ -9,3 +9,7 @@ print("Lista zakupów")
 for store, rzeczy in lista_zakupow_cap.items():
     print(f"Idę do {store} i kupuję tam {rzeczy}")
 
+count = sum(len(items) for items in lista_zakupow.values())
+
+print(f"W sumie kupuję {count} produktów.")
+
