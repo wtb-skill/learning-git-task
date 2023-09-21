@@ -5,3 +5,7 @@ lista_zakupow = {
 
 lista_zakupow_cap = {key.capitalize(): [item.capitalize() for item in value] for key, value in lista_zakupow.items()}
 
+print("Lista zakupów")
+for store, rzeczy in lista_zakupow_cap.items():
+    print(f"Idę do {store} i kupuję tam {rzeczy}")
+
