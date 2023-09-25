@@ -12,6 +12,3 @@ for store, rzeczy in lista_zakupow_cap.items():
 count = sum(len(items) for items in lista_zakupow.values())
 
 print(f"W sumie kupuję {count} produktów.")
-
-print("To jest pierwsza zmiana, którą wyślę poprzez commit.")
-
