@@ -12,3 +12,7 @@ for store, rzeczy in lista_zakupow_cap.items():
 count = sum(len(items) for items in lista_zakupow.values())
 
 print(f"W sumie kupuję {count} produktów.")
+
+# Wishes for my mentor:
+# "The older you get the better you get. Unless you are a banana."
+# -Betty White
